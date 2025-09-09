@@ -1,6 +1,6 @@
-# PROYECTO COACH - TALLER 01 SPRING BOOT
+# Gestión de Entrenadores (coaches) con Spring Boot
 
-## DESCRIPCION DEL PROYECTO:
+## Descripción del proyecto:
 
 Sistema de gestión de coaches deportivos desarrollado con Spring Boot. Implementa las 6 actividades del taller:
 
@@ -11,14 +11,14 @@ Sistema de gestión de coaches deportivos desarrollado con Spring Boot. Implemen
 5. Vista completa de objeto
 6. Eliminación de objetos
 
-## PRERREQUISITOS:
+## Prerrequisitos:
 
 - Java 21 o superior (Yo lo probé con 21 y 24)
 - Maven 3.6 o superior
 - IDE (IntelliJ IDEA, Eclipse, VS Code)
 - Nota: application-dev.properties, application-staging.properties y application.properties NO necesitan cambios.
 
-## INSTALACION Y EJECUCION:
+## Instalación y ejecución:
 
 **PASO 1:** Descargar el .zip y decomprimir
 
@@ -41,7 +41,7 @@ mvn spring-boot:run
   * Cabe aclarar que el número final es el ID del coach ya creado, así que es variable
 
 
-## VALIDACIONES IMPLEMENTADAS:
+## Validaciones Implementadas:
 
 - Nombre: No vacío y máx 100 caracteres
 - Cédula: No vacía, máx 20 caracteres y es única
@@ -50,7 +50,7 @@ mvn spring-boot:run
 - Años de experiencia: Entre 0 y 50 años
 - Nivel certificación: No vacío y máx 50 caracteres
 
-## TECNOLOGIAS UTILIZADAS:
+## Tecnologías Utilizadas:
 
 - Spring Boot 3.2.0
 - Spring Web MVC
@@ -60,9 +60,3 @@ mvn spring-boot:run
 - Bootstrap 5.3
 - Font Awesome 6.4 (Biblioteca de iconos para hacer el front más bonito)
 - Bean Validation
-
-
-## AUTOR:
-
-Proyecto desarrollado por Sara López Marín para el Taller 01 - Spring Boot
-Clase asignada: Coach
